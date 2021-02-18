@@ -21,6 +21,7 @@ After doing this you should have a working LCD screen running a test program.
 
 ---------------You don't have to go futher I am just listing my source below to give credit.--------------------------
 
-To give credit, this is where I found the code. All this code in this repo is a bit heavy for a beginner, but here it is. https://github.com/dhylands/python_lcd
+To give credit, this is where I found the code. All this code in this repo is a bit heavy for a beginner, but here it is. 
+https://github.com/dhylands/python_lcd
 
 I only used esp8266_i2c_lcd.py, lcd_api.py, esp8266_i2c_lcd_test.py( renamed to main.py ).
