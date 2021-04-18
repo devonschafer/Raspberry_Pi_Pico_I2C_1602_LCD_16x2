@@ -23,6 +23,6 @@ https://github.com/dhylands/python_lcd
 
 I only used esp8266_i2c_lcd.py, lcd_api.py, esp8266_i2c_lcd_test.py( renamed to main.py ).
 
-NOTE: My contrast on the screen was all wrong. I could see words on the screen, but they appeared a dark color(not too visible). I found out that the on board potentiometer was bad from factory. I cut it off and measuered to find that a 3.6k ohm resistor is perfect contrast for me. I didn't have a 3.6 k resistor so I soldered two 1k resistors in series to achieve 3k which was still suitable for me. 
+NOTE: My contrast on the screen was all wrong. I could see words on the screen, but they appeared a dark color(not too visible). I found out that the on board potentiometer was bad from factory. I cut it off and measuered to find that a 3.6k ohm resistor is perfect contrast for me. I didn't have a 3.6 k resistor so I soldered two 1.5k resistors in series to achieve 3k which was still suitable for me. 
 How I soldered on the resistor (if you should have to). 
 If you remove the pot and hold the screen exactly in the same orientation as the image in the repo. You will see three contacts. one is to the bottom left (closest to the micro chip), two is on the top middle, and the third is bottom right (closest to the VCC pin). I soldered the resistor between the top and bottom right contacts. Hope this helps.
